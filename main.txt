@@ -1,0 +1,29 @@
+# this is just a test file
+#
+
+# how to create a new repo from command line
+mkdir firstgit
+
+# chdir to the dir
+cd firstgit
+
+# create file(s)
+echo hey > main.txt
+
+# make repo, dir is .git
+git init
+
+# add all files
+git add .
+
+# commit
+git commit -a -m 'first commit'
+# fatal: Paths with -a does not make sense.
+git commit -m 'first commit'
+
+
+# create github repository
+# then copy these from github and run here:
+git config --global user.name "Phil Hardaker"
+git config --global user.email gitropis@tropis.com
+
